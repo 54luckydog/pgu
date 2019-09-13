@@ -1,0 +1,21 @@
+cc.log('load GS start');
+window.GS = {};
+GS._ = require('./third/lodash-min.js');
+GS.MD5 = require('./third/md5.js');
+GS.Pako = require('./third/pako.min.js');
+GS.FSM = require('./third/state-machine.min.js');
+GS.LZString = require('./third/lz-string.js');
+
+GS.AudioManager = require('./utils/gs_audio_manager.js');
+GS.CCUtils = require('./utils/gs_cc_utils.js');
+GS.Constants = require('./utils/gs_constants.js');
+GS.Date = require('./utils/gs_date.js');
+GS.Http = require('./utils/gs_http.js');
+GS.KVStorage = require('./utils/gs_kvstorage.js');
+GS.Log = require('./utils/gs_log.js');
+GS.Math = require('./utils/gs_math.js');
+GS.NotificationCenter = require('./utils/gs_notification_center.js');
+GS.Random = require('./utils/gs_random.js');
+GS.Utils = require('./utils/gs_utils.js');
+//GS.dbcenter=require('./dbcenter/dbcenter_initialize.js');
+cc.log('load GS end');

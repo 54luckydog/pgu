@@ -1,0 +1,103 @@
+" Press <F1> for help
+
+-[F]clientfarm {
+ |-[F]assets {
+ | |-[F]resources {
+ | | |-[F]prefabs {
+ | | | |-view_main.prefab
+ | | | |-view_main.prefab.meta }
+ | | |
+ | | |-prefabs.meta }
+ | |
+ | |-[F]scenes {
+ | | |-main.fire
+ | | |-main.fire.meta }
+ | |
+ | |-[F]scripts {
+ | | |-[F]core {
+ | | | |-[F]third {
+ | | | | |-lodash-min.js
+ | | | | |-lodash-min.js.meta
+ | | | | |-lz-string.js
+ | | | | |-lz-string.js.meta
+ | | | | |-md5.js
+ | | | | |-md5.js.meta
+ | | | | |-pako.min.js
+ | | | | |-pako.min.js.meta
+ | | | | |-runtime.js
+ | | | | |-runtime.js.meta
+ | | | | |-state-machine.min.js
+ | | | | |-state-machine.min.js.meta }
+ | | | |
+ | | | |-[F]utils {
+ | | | | |-gs_audio_manager.js
+ | | | | |-gs_audio_manager.js.meta
+ | | | | |-gs_cc_utils.js
+ | | | | |-gs_cc_utils.js.meta
+ | | | | |-gs_constants.js
+ | | | | |-gs_constants.js.meta
+ | | | | |-gs_date.js
+ | | | | |-gs_date.js.meta
+ | | | | |-gs_extension.js
+ | | | | |-gs_extension.js.meta
+ | | | | |-gs_http.js
+ | | | | |-gs_http.js.meta
+ | | | | |-gs_kvstorage.js
+ | | | | |-gs_kvstorage.js.meta
+ | | | | |-gs_log.js
+ | | | | |-gs_log.js.meta
+ | | | | |-gs_math.js
+ | | | | |-gs_math.js.meta
+ | | | | |-gs_notification_center.js
+ | | | | |-gs_notification_center.js.meta
+ | | | | |-gs_random.js
+ | | | | |-gs_random.js.meta
+ | | | | |-gs_utils.js
+ | | | | |-gs_utils.js.meta }
+ | | | |
+ | | | |-gs.js
+ | | | |-gs.js.meta
+ | | | |-third.meta
+ | | | |-utils.meta }
+ | | |
+ | | |-[F]farm {
+ | | | |-farm.js
+ | | | |-[F]views {
+ | | | | |-view_main.js
+ | | | | |-view_main.js.meta
+ | | | | |-view_scene_main.js
+ | | | | |-view_scene_main.js.meta }
+ | | | |
+ | | | |-dbcenter.meta
+ | | | |-models.meta
+ | | | |-views.meta }
+ | | |
+ | | |-core.meta
+ | | |-farm.meta }
+ | |
+ | |-resources.meta
+ | |-scenes.meta
+ | |-scripts.meta }
+ |
+ |-[F]local {
+ | |-[F]logs {
+ | | |-project.log }
+ | |
+ | |-console.json
+ | |-layout.windows.json
+ | |-local.json
+ | |-node-library.json
+ | |-node-tree-state.json
+ | |-scene.json
+ | |-settings.json }
+ |
+ |-[F]settings {
+ | |-project.json
+ | |-services.json }
+ |
+ |-clientfarm.exvim
+ |-creator.d.ts
+ |-jsconfig.json
+ |-project.json }
+
+
